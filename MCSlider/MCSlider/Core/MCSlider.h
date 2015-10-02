@@ -33,11 +33,4 @@
  */
 - (void)milestoneSlider:(UISlider *)slider;
 
-/**
- *  Singleton
- *
- *  @return Singleton Instance
- */
-+ (instancetype)sharedInstance;
-
 @end

@@ -10,17 +10,6 @@
 
 @implementation MCSlider
 
-+ (instancetype)sharedInstance {
-    static MCSlider *_sharedMCSlider = nil;
-    static dispatch_once_t onceToken;
-    
-    dispatch_once(&onceToken, ^{
-        _sharedMCSlider = [[self alloc] init];
-    });
-    
-    return _sharedMCSlider;
-}
-
 - (void)milestoneSlider:(UISlider *)slider {
     
     int discreteValue = roundl([slider value]);
