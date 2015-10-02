@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MCSlider"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.summary          = "MCSlider"
   s.homepage         = "https://github.com/mateuscampos/MCSlider"
   s.license          = 'MIT'
