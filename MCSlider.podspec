@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.subspec "MCSlider" do |core|
-    core.source_files = 'MCSlider/MCSlider/MCSlider/**/*'
-    core.public_header_files = 'MCSlider/MCSlider/MCSlider/*.h'
+    core.source_files = 'MCSlider/MCSlider/Core/**/*'
+    core.public_header_files = 'MCSlider/MCSlider/Core/*.h'
   end
 
 end
